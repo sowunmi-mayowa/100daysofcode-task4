@@ -1,0 +1,168 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    #main-header{
+        background: url("../images/header.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        height: 500px;
+        display: grid;
+        justify-content: end;
+        
+        .header-content{
+            margin-right: 50px;
+
+            h1{
+                font-size: 20px;
+                font-weight: 800;
+                margin-bottom: 50px;
+                margin-top: 20px;
+            }
+            h3{
+                font-family: monospace;
+                font-weight: 200;
+                font-size: 30px;
+            }
+    
+            p{
+                max-width: 450px;
+                line-height: 1.5em;
+                font-size: 25px;
+                font-weight: 100;
+
+            }
+    
+            button{
+                background: none;
+                border-style: none;
+                width: 200px;
+                color: white;
+                border: 1px solid white;
+                padding: 20px;
+                margin-top: 40px;
+                text-transform: uppercase;
+                cursor: pointer;
+                transition: all .5s ease-in;
+                transform: translate3d(100%);
+            }
+            button:hover{
+                background: rgba(255, 255, 255, 0.246);
+                color: black;
+                font-weight: 700;
+                transform: translate3d(0);
+                transform: scale(0.9);
+                
+            }
+        }
+       
+    }
+    .container{
+        margin: 0  50px;
+        padding: 30px;
+    }
+    #body{
+        margin: 30px 10px;
+
+        .body-row{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            box-shadow: -2px -1px 5px 2px grey;
+            margin-bottom: 40px;
+            padding: 30px;
+    
+    
+            .body-first-col img, .body-fourth-col img{
+                width: 100%;
+                height: 530px;
+                padding: 30px;
+                box-shadow: -5px -3px 7px 4px grey;
+            }
+            .body-second-col{
+                margin-left: 50px;
+            }
+            .body-third-col{
+                margin-left: 30px;
+            }
+           
+            h2{
+                font-family: monospace;
+                font-weight: 700;
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            p{
+                max-width: 450px;
+                line-height: 1.5em;
+                font-size: 25px;
+                font-weight: 100;
+            }
+        }
+    }
+   #highlights{
+       background-color: black;
+       color: white;
+
+       .hightlight-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        justify-content: center;
+        align-items: center;
+
+        .highlight-col-one{
+            h2{
+                font-family: monospace;
+                font-weight: 700;
+                font-size: 40px;
+                margin-bottom: 20px;
+            }
+            p{
+                max-width: 450px;
+                line-height: 1.5em;
+                font-size: 18px;
+            }
+        }
+    }
+    
+   
+    .content{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px outset white;
+        h4{
+            font-family: monospace;
+            font-size: 20px;
+        }
+        p{
+            padding: 5px;
+            max-width: 600px;
+        }
+    }
+   }
+}
+
+.gathehring-content{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.gathering-col-one img{
+    width: 100%;
+    height: 530px;
+    padding: 30px;
+    box-shadow: -5px -3px 7px 4px grey;
+}

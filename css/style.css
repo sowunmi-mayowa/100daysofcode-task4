@@ -1,0 +1,206 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* #main-header {
+  background: url("../images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+* #main-header .header-content {
+  margin-right: 50px;
+}
+
+* #main-header .header-content h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+* #main-header .header-content h3 {
+  font-family: monospace;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+* #main-header .header-content p {
+  max-width: 450px;
+  line-height: 1.5em;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+* #main-header .header-content button {
+  background: none;
+  border-style: none;
+  width: 200px;
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+  -webkit-transform: translate3d(100%);
+          transform: translate3d(100%);
+}
+
+* #main-header .header-content button:hover {
+  background: rgba(255, 255, 255, 0.246);
+  color: black;
+  font-weight: 700;
+  -webkit-transform: translate3d(0);
+          transform: translate3d(0);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+* .container {
+  margin: 0  50px;
+  padding: 30px;
+}
+
+* #body {
+  margin: 30px 10px;
+}
+
+* #body .body-row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(500px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px -1px 5px 2px grey;
+          box-shadow: -2px -1px 5px 2px grey;
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+* #body .body-row .body-first-col img, * #body .body-row .body-fourth-col img {
+  width: 100%;
+  height: 530px;
+  padding: 30px;
+  -webkit-box-shadow: -5px -3px 7px 4px grey;
+          box-shadow: -5px -3px 7px 4px grey;
+}
+
+* #body .body-row .body-second-col {
+  margin-left: 50px;
+}
+
+* #body .body-row .body-third-col {
+  margin-left: 30px;
+}
+
+* #body .body-row h2 {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+* #body .body-row p {
+  max-width: 450px;
+  line-height: 1.5em;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+* #highlights {
+  background-color: black;
+  color: white;
+}
+
+* #highlights .hightlight-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* #highlights .hightlight-content .highlight-col-one h2 {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+* #highlights .hightlight-content .highlight-col-one p {
+  max-width: 450px;
+  line-height: 1.5em;
+  font-size: 18px;
+}
+
+* #highlights .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (200px)[2];
+      grid-template-columns: repeat(2, 200px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  border-bottom: 1px outset white;
+}
+
+* #highlights .content h4 {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+* #highlights .content p {
+  padding: 5px;
+  max-width: 600px;
+}
+
+.gathehring-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(500px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gathering-col-one img {
+  width: 100%;
+  height: 530px;
+  padding: 30px;
+  -webkit-box-shadow: -5px -3px 7px 4px grey;
+          box-shadow: -5px -3px 7px 4px grey;
+}
