@@ -259,8 +259,171 @@
 }
 
 .footer-content-one {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.411))), url("../images/header.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.411)), url("../images/header.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.698))), url("../images/header.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.698)), url("../images/header.jpg");
   height: 200px;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-content-one .footer-row-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-content-one .footer-row-one h1 {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: white;
+  margin-right: 100px;
+}
+
+.footer-content-one .footer-row-one button {
+  background: none;
+  border-style: none;
+  width: 200px;
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.footer-content-two {
+  background-color: black;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 5px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  text-transform: capitalize;
+}
+
+.footer-content-two .col-one, .footer-content-two .col-two, .footer-content-two .col-three {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+  #main-header {
+    text-align: center;
+  }
+  #body {
+    margin: 10px 0px;
+  }
+  #body .container {
+    margin: 0;
+  }
+  #body .container .body-row {
+    display: block;
+  }
+  #body .container .body-row .body-second-col, #body .container .body-row .body-third-col {
+    margin-left: 0;
+  }
+  .body-row .body-first-col img, .body-fourth-col img {
+    width: 0;
+    height: 0;
+    padding: 20px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  #highlights .container {
+    margin: 0;
+  }
+  #highlights .hightlight-content {
+    display: block;
+  }
+  #highlights .hightlight-content h2 {
+    font-size: 30px;
+  }
+  #highlights .content {
+    display: block;
+  }
+  #highlights .content img {
+    width: 350px;
+    height: 300px;
+  }
+  #highlights .content .highlight-col-text {
+    text-align: center;
+  }
+  #highlights .content .highlight-col-text h4 {
+    font-size: 30px;
+  }
+  #highlights .content .highlight-col-text p {
+    font-size: 20px;
+  }
+  #gathering .gathehring-content {
+    display: block;
+  }
+  #gathering .gathehring-content .gathering-col-one img {
+    height: 300px;
+    padding: 20px;
+  }
+  #gathering .gathehring-content .gathering-col-two {
+    margin-left: 0;
+  }
+  .footer-content-one {
+    display: block;
+    height: 400px;
+  }
+  .footer-content-one .container {
+    margin: 0;
+  }
+  .footer-content-one .footer-row-one {
+    display: block;
+  }
+  .footer-content-one .footer-row-one h1 {
+    margin-right: 0;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .footer-content-one .footer-row-one button {
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 250px;
+    padding: 30px;
+    font-size: 20px;
+    border: 2px solid white;
+  }
+  .footer-content-two {
+    display: block;
+    text-align: center;
+  }
+  .footer-content-two > div {
+    margin: 40px 0;
+    font-size: 25px;
+  }
 }
