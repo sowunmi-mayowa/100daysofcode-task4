@@ -375,3 +375,73 @@ html, body{
         }
     }
 }
+@media only screen and (max-width: 320px){
+    .container{padding:15px;}
+    #main-header{
+        height: 550px;
+
+        .header-content{
+            margin: 0;
+        }
+    }
+    #body{
+        .body-row{
+            padding: 18px;
+    
+            .body-first-col img,.body-fourth-col img{
+                padding: 10px;
+                box-shadow: -5px -3px 7px 1px grey;
+            }
+        }
+    }
+
+    #highlights{
+        .hightlight-content{
+            .highlight-col-one {
+                h2{
+                    font-size: 30px;
+                }
+            }
+            img{
+                width: 250px;
+                margin-left: 20px;
+            }
+            .highlight-col-text p{
+                font-size: 15px;
+            }
+        }
+    }
+    #gathering{
+        margin: 40px 0px;
+
+        .container{
+            margin: 0px 10px;
+            .gathering-col-two{
+                margin-top: 30px;
+                h2{
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    
+    .footer-content-one {
+        height: 350px;
+        .footer-row-one{
+
+            h1{
+                margin-top: 30px;
+                font-size: 30px;
+            }
+    
+            button{
+                margin-left: 25px;
+            }
+        }
+    }
+}
