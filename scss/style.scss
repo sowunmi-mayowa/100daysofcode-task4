@@ -404,7 +404,7 @@ html, body{
             }
             img{
                 width: 250px;
-                margin-left: 20px;
+                margin-left: 10px;
             }
             .highlight-col-text p{
                 font-size: 15px;
@@ -442,6 +442,12 @@ html, body{
             button{
                 margin-left: 25px;
             }
+        }
+    }
+    .footer-content-two{
+
+        > div{
+            font-size: 25px;
         }
     }
 }
