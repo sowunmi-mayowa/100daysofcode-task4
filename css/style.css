@@ -354,7 +354,6 @@ html, body {
     display: block;
   }
   #body .container .body-row .body-first-col img, #body .container .body-row .body-fourth-col img {
-    width: 300px;
     height: 300px;
     padding: 10px;
     margin: 20px 0px;
