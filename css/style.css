@@ -341,6 +341,9 @@ html, body {
   #main-header {
     text-align: center;
   }
+  #main-header .header-content {
+    margin-right: 0px;
+  }
   #body {
     margin: 10px 0px;
   }
@@ -350,15 +353,14 @@ html, body {
   #body .container .body-row {
     display: block;
   }
+  #body .container .body-row .body-first-col img, #body .container .body-row .body-fourth-col img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 20px 0px;
+  }
   #body .container .body-row .body-second-col, #body .container .body-row .body-third-col {
     margin-left: 0;
-  }
-  .body-row .body-first-col img, .body-fourth-col img {
-    width: 0;
-    height: 0;
-    padding: 20px;
-    max-width: 300px;
-    max-height: 300px;
   }
   #highlights .container {
     margin: 0;
